@@ -1,0 +1,54 @@
+{
+    "distance_computation": "naive",
+    "grid_size": {
+        "height": 10,
+        "width": 10
+    },
+    "is_absorbing": false,
+    "measuring_points": [
+        {
+            "ID": 1,
+            "upper_left": {"x": 0, "y": 0},
+            "size": {"height": 9, "width": 9},
+            "delay": 0,
+            "measuring_time": 10
+        }
+    ],
+    "obstacles": [
+        {"x": 0, "y": 6},
+        {"x": 1, "y": 6},
+        {"x": 2, "y": 6},
+        {"x": 3, "y": 6},
+        {"x": 4, "y": 6},
+        {"x": 5, "y": 6},
+        {"x": 6, "y": 6},
+        {"x": 7, "y": 6},
+        {"x": 8, "y": 6},
+        {"x": 9, "y": 6},
+        {"x": 0, "y": 4},
+        {"x": 1, "y": 4},
+        {"x": 2, "y": 4},
+        {"x": 3, "y": 4},
+        {"x": 4, "y": 4},
+        {"x": 5, "y": 4},
+        {"x": 6, "y": 4},
+        {"x": 7, "y": 4},
+        {"x": 8, "y": 4},
+        {"x": 9, "y": 4}
+    ],
+    "output_filename": "outputs/task5_scenario1.csv",
+    "pedestrians": [
+        {
+            "ID": 1,
+            "speed": 0.555,
+            "x": 0,
+            "y": 5
+        }
+    ],
+    "targets": [
+        {
+            "x": 9,
+            "y": 5
+        }
+    ]
+}
