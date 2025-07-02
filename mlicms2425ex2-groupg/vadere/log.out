@@ -1,0 +1,496 @@
+11:44:50,857   INFO STDOUTERR:15 - Redirect StdOut and StdErr
+11:44:50,859   INFO VadereApplication:29 - starting Vadere GUI...
+11:44:50,889   INFO VadereConfig:66 - Use config file from path C:\Users\Bassel\.config\vadere.conf
+11:44:51,104 STDOUT STDOUTERR:22 - build tree model cache ...
+11:44:51,123 STDERR STDOUTERR:32 - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11:44:51,124 STDERR STDOUTERR:32 - SLF4J: Defaulting to no-operation (NOP) logger implementation
+11:44:51,124 STDERR STDOUTERR:32 - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11:45:02,807   INFO IOVadere:72 - read project: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\vadere.project
+11:45:02,855   INFO IOVadere:82 - analyzed scenario files.
+11:45:03,346   INFO IOVadere:103 - analyzed: 2, migrated: 0, upToDate: 2, notMigratable: 0
+11:45:03,348   INFO IOVadere:108 - project loaded: task_5
+11:45:03,364   INFO ActionLoadProject:113 - refreshed output table - 2
+11:45:03,417   INFO ProjectOutput:160 - output directory 'C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output' of project 'task_5' is not valid.
+11:45:03,429   INFO ProjectView:577 - selected scenario '1000_pedestrian'
+11:45:03,853   INFO DataProcessingView:97 - switch to gui view
+11:45:12,571   INFO ProjectView:583 - repainted output table
+11:45:12,571   INFO ActionLoadProject:117 - selected the first scenario
+11:45:12,591   INFO ActionLoadProject:124 - project 'task_5' loaded.
+11:45:25,613   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:45:25,623   INFO ScenarioRun:147 - Initializing scenario: 1000_pedestrian...
+11:45:25,625   INFO ScenarioRun:128 - scenario context initialized.
+11:45:25,630   INFO ScenarioRun:229 - no mesh 1000_pedestrian.poly was found.
+11:45:25,631   INFO ScenarioRun:229 - no mesh 1000_pedestrian_background.poly was found.
+11:45:25,902   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:45:25,965   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/361201 [points]
+11:45:26,168   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 36121/361201 [points]
+11:45:26,233   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 72241/361201 [points]
+11:45:26,298   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 108361/361201 [points]
+11:45:26,412   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 144481/361201 [points]
+11:45:26,473   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 180601/361201 [points]
+11:45:26,516   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 216721/361201 [points]
+11:45:26,588   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 252841/361201 [points]
+11:45:26,633   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 288961/361201 [points]
+11:45:26,687   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 325081/361201 [points]
+11:45:26,733   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:828[ms]
+11:45:26,736   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:45:27,260   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:468[ms]
+11:45:27,274   INFO Simulation:277 - preLoop finished.
+11:45:45,825   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-45-25.622\postvis.traj
+11:45:46,489   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-45-25.622\overlaps.csv
+11:45:46,626   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-45-25.622\overlapCount.txt
+11:45:46,632   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-45-25.622\SIRinformation.csv
+11:45:46,778   INFO Simulation:251 - Finished writing all output files
+11:45:46,778   INFO Simulation:254 - Post-loop: before waitForTraci
+11:45:46,778   INFO Simulation:261 - Post-loop: finished.
+11:45:46,780   INFO ScenarioRun:207 - Simulation run finished.
+11:45:46,783   INFO ProjectView:140 - scenario 1000_pedestrian finished
+11:45:46,789   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <1000_pedestrian>
+11:45:46,789   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:45:47,470   INFO VadereProject:302 - SimulationResult{scenarioName='"1000_pedestrian", nr_overlaps (PID4)=14112, state='"SimulationRun completed"}
+11:45:47,473   INFO ScenarioRun:265 - Simulation of scenario 1000_pedestrian finished.
+11:45:47,477   INFO ProjectView:577 - selected scenario '1000_pedestrian'
+11:45:48,585   INFO ProjectView:583 - repainted output table
+11:46:19,603 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+11:46:19,604 STDERR STDOUTERR:32 - java.lang.NullPointerException
+11:46:19,606 STDERR STDOUTERR:32 - 	at java.base/java.util.Objects.requireNonNull(Objects.java:209)
+11:46:19,606 STDERR STDOUTERR:32 - 	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:216)
+11:46:19,607 STDERR STDOUTERR:32 - 	at java.base/java.nio.file.Path.of(Path.java:147)
+11:46:19,608 STDERR STDOUTERR:32 - 	at java.base/java.nio.file.Paths.get(Paths.java:69)
+11:46:19,608 STDERR STDOUTERR:32 - 	at org.vadere.gui.projectview.view.ProjectRunResultDialog$ResultDialog.btnCsvListener(ProjectRunResultDialog.java:283)
+11:46:19,609 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Button.processActionEvent(Button.java:419)
+11:46:19,609 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Button.processEvent(Button.java:387)
+11:46:19,610 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+11:46:19,610 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+11:46:19,611 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+11:46:19,611 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+11:46:19,612 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+11:46:19,612 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+11:46:19,613 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+11:46:19,613 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+11:46:19,614 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+11:46:19,615 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+11:46:19,615 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+11:46:19,616 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+11:46:19,616 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+11:46:19,616 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+11:46:19,617 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+11:46:19,617 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+11:46:19,618 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+11:46:19,618 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+11:46:19,619 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+11:46:33,303   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:46:33,306   INFO ScenarioRun:147 - Initializing scenario: 1000_pedestrian...
+11:46:33,306   INFO ScenarioRun:128 - scenario context initialized.
+11:46:33,307   INFO ScenarioRun:229 - no mesh 1000_pedestrian.poly was found.
+11:46:33,308   INFO ScenarioRun:229 - no mesh 1000_pedestrian_background.poly was found.
+11:46:33,371   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:46:33,381   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/361201 [points]
+11:46:33,447   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 36121/361201 [points]
+11:46:33,514   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 72241/361201 [points]
+11:46:33,611   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 108361/361201 [points]
+11:46:33,692   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 144481/361201 [points]
+11:46:33,750   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 180601/361201 [points]
+11:46:33,799   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 216721/361201 [points]
+11:46:33,843   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 252841/361201 [points]
+11:46:33,908   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 288961/361201 [points]
+11:46:33,954   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 325081/361201 [points]
+11:46:34,002   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:629[ms]
+11:46:34,002   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:46:34,471   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:412[ms]
+11:46:34,478   INFO Simulation:277 - preLoop finished.
+11:47:01,879   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-46-33.305\postvis.traj
+11:47:02,588   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-46-33.305\overlaps.csv
+11:47:02,621   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-46-33.305\overlapCount.txt
+11:47:02,628   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-46-33.305\SIRinformation.csv
+11:47:02,765   INFO Simulation:251 - Finished writing all output files
+11:47:02,766   INFO Simulation:254 - Post-loop: before waitForTraci
+11:47:02,766   INFO Simulation:261 - Post-loop: finished.
+11:47:02,767   INFO ScenarioRun:207 - Simulation run finished.
+11:47:02,768   INFO ProjectView:140 - scenario 1000_pedestrian finished
+11:47:02,769   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <1000_pedestrian>
+11:47:02,770   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:47:03,287   INFO VadereProject:302 - SimulationResult{scenarioName='"1000_pedestrian", nr_overlaps (PID4)=14112, state='"SimulationRun completed"}
+11:47:03,288   INFO ScenarioRun:265 - Simulation of scenario 1000_pedestrian finished.
+11:47:03,291   INFO ProjectView:577 - selected scenario '1000_pedestrian'
+11:47:04,942   INFO ProjectView:583 - repainted output table
+11:47:27,442   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:47:27,446   INFO ScenarioRun:147 - Initializing scenario: 1000_pedestrian...
+11:47:27,447   INFO ScenarioRun:128 - scenario context initialized.
+11:47:27,448   INFO ScenarioRun:229 - no mesh 1000_pedestrian.poly was found.
+11:47:27,449   INFO ScenarioRun:229 - no mesh 1000_pedestrian_background.poly was found.
+11:47:27,496   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:47:27,512   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/361201 [points]
+11:47:27,627   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 36121/361201 [points]
+11:47:27,693   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 72241/361201 [points]
+11:47:27,805   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 108361/361201 [points]
+11:47:27,868   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 144481/361201 [points]
+11:47:27,937   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 180601/361201 [points]
+11:47:28,032   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 216721/361201 [points]
+11:47:28,104   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 252841/361201 [points]
+11:47:28,157   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 288961/361201 [points]
+11:47:28,213   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 325081/361201 [points]
+11:47:28,268   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:771[ms]
+11:47:28,269   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:47:28,616   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:287[ms]
+11:47:28,622   INFO Simulation:277 - preLoop finished.
+11:47:53,415   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-47-27.444\postvis.traj
+11:47:53,931   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-47-27.444\overlaps.csv
+11:47:53,964   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-47-27.444\overlapCount.txt
+11:47:53,964   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-47-27.444\SIRinformation.csv
+11:47:54,078   INFO Simulation:251 - Finished writing all output files
+11:47:54,078   INFO Simulation:254 - Post-loop: before waitForTraci
+11:47:54,078   INFO Simulation:261 - Post-loop: finished.
+11:47:54,078   INFO ScenarioRun:207 - Simulation run finished.
+11:47:54,079   INFO ProjectView:140 - scenario 1000_pedestrian finished
+11:47:54,082   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <1000_pedestrian>
+11:47:54,082   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:47:54,533   INFO VadereProject:302 - SimulationResult{scenarioName='"1000_pedestrian", nr_overlaps (PID4)=14112, state='"SimulationRun completed"}
+11:47:54,534   INFO ScenarioRun:265 - Simulation of scenario 1000_pedestrian finished.
+11:47:54,537   INFO ProjectView:577 - selected scenario '1000_pedestrian'
+11:47:55,842   INFO ProjectView:583 - repainted output table
+11:48:31,822   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:48:31,825   INFO ScenarioRun:147 - Initializing scenario: 1000_pedestrian...
+11:48:31,826   INFO ScenarioRun:128 - scenario context initialized.
+11:48:31,827   INFO ScenarioRun:229 - no mesh 1000_pedestrian.poly was found.
+11:48:31,827   INFO ScenarioRun:229 - no mesh 1000_pedestrian_background.poly was found.
+11:48:31,877   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:48:31,887   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/361201 [points]
+11:48:31,979   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 36121/361201 [points]
+11:48:32,044   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 72241/361201 [points]
+11:48:32,104   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 108361/361201 [points]
+11:48:32,188   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 144481/361201 [points]
+11:48:32,274   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 180601/361201 [points]
+11:48:32,335   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 216721/361201 [points]
+11:48:32,388   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 252841/361201 [points]
+11:48:32,444   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 288961/361201 [points]
+11:48:32,511   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 325081/361201 [points]
+11:48:32,582   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:704[ms]
+11:48:32,582   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:48:32,833   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:227[ms]
+11:48:32,840   INFO Simulation:277 - preLoop finished.
+11:48:58,350   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-48-31.824\postvis.traj
+11:48:58,870   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-48-31.824\overlaps.csv
+11:48:58,902   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-48-31.824\overlapCount.txt
+11:48:58,903   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\1000_pedestrian_2024-11-14_11-48-31.824\SIRinformation.csv
+11:48:59,002   INFO Simulation:251 - Finished writing all output files
+11:48:59,002   INFO Simulation:254 - Post-loop: before waitForTraci
+11:48:59,002   INFO Simulation:261 - Post-loop: finished.
+11:48:59,003   INFO ScenarioRun:207 - Simulation run finished.
+11:48:59,004   INFO ProjectView:140 - scenario 1000_pedestrian finished
+11:48:59,010   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <1000_pedestrian>
+11:48:59,010   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:48:59,442   INFO VadereProject:302 - SimulationResult{scenarioName='"1000_pedestrian", nr_overlaps (PID4)=14112, state='"SimulationRun completed"}
+11:48:59,443   INFO ScenarioRun:265 - Simulation of scenario 1000_pedestrian finished.
+11:48:59,446   INFO ProjectView:577 - selected scenario '1000_pedestrian'
+11:49:00,334   INFO ProjectView:583 - repainted output table
+11:49:03,853   INFO ProjectView:577 - selected scenario 'supermarket'
+11:49:04,884   INFO ProjectView:583 - repainted output table
+11:49:20,446   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:49:20,470   INFO ScenarioRun:147 - Initializing scenario: supermarket...
+11:49:20,472   INFO ScenarioRun:128 - scenario context initialized.
+11:49:20,477   INFO ScenarioRun:229 - no mesh supermarket.poly was found.
+11:49:20,479   INFO ScenarioRun:229 - no mesh supermarket_background.poly was found.
+11:49:20,493   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:49:20,498   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+11:49:20,598   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+11:49:20,690   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+11:49:20,785   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+11:49:20,883   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+11:49:21,033   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+11:49:21,079   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+11:49:21,146   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+11:49:21,189   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+11:49:21,228   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+11:49:21,289   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:795[ms]
+11:49:21,290   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:49:21,347   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:46[ms]
+11:49:21,423   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:65[ms]
+11:49:21,486   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:57[ms]
+11:49:21,546   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:53[ms]
+11:49:21,607   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:54[ms]
+11:49:21,690   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:76[ms]
+11:49:21,747   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:52[ms]
+11:49:21,809   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:55[ms]
+11:49:21,870   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:56[ms]
+11:49:21,940   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:64[ms]
+11:49:21,946   INFO Simulation:277 - preLoop finished.
+11:49:36,228   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-49-20.449\postvis.traj
+11:49:36,448   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-49-20.449\overlaps.csv
+11:49:36,454   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-49-20.449\overlapCount.txt
+11:49:36,455   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-49-20.449\SIRinformation.csv
+11:49:36,510   INFO Simulation:251 - Finished writing all output files
+11:49:36,511   INFO Simulation:254 - Post-loop: before waitForTraci
+11:49:36,511   INFO Simulation:261 - Post-loop: finished.
+11:49:36,512   INFO ScenarioRun:207 - Simulation run finished.
+11:49:36,513   INFO ProjectView:140 - scenario supermarket finished
+11:49:36,517   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <supermarket>
+11:49:36,518   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:49:36,825   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=89, state='"SimulationRun completed"}
+11:49:36,828   INFO ScenarioRun:265 - Simulation of scenario supermarket finished.
+11:49:36,832   INFO ProjectView:577 - selected scenario 'supermarket'
+11:49:37,765   INFO ProjectView:583 - repainted output table
+11:49:40,174   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:49:40,185   INFO ScenarioRun:147 - Initializing scenario: supermarket...
+11:49:40,187   INFO ScenarioRun:128 - scenario context initialized.
+11:49:40,188   INFO ScenarioRun:229 - no mesh supermarket.poly was found.
+11:49:40,188   INFO ScenarioRun:229 - no mesh supermarket_background.poly was found.
+11:49:40,196   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:49:40,201   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+11:49:40,254   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+11:49:40,303   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+11:49:40,358   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+11:49:40,420   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+11:49:40,463   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+11:49:40,504   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+11:49:40,546   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+11:49:40,615   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+11:49:40,662   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+11:49:40,721   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:524[ms]
+11:49:40,722   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:49:40,807   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:78[ms]
+11:49:40,919   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:99[ms]
+11:49:40,980   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:56[ms]
+11:49:41,035   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:50[ms]
+11:49:41,088   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:48[ms]
+11:49:41,172   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:76[ms]
+11:49:41,240   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:57[ms]
+11:49:41,325   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:73[ms]
+11:49:41,452   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:70[ms]
+11:49:41,511   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:55[ms]
+11:49:41,518   INFO Simulation:277 - preLoop finished.
+11:49:55,543   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-49-40.179\postvis.traj
+11:49:55,758   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-49-40.179\overlaps.csv
+11:49:55,763   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-49-40.179\overlapCount.txt
+11:49:55,765   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-49-40.179\SIRinformation.csv
+11:49:55,816   INFO Simulation:251 - Finished writing all output files
+11:49:55,817   INFO Simulation:254 - Post-loop: before waitForTraci
+11:49:55,817   INFO Simulation:261 - Post-loop: finished.
+11:49:55,818   INFO ScenarioRun:207 - Simulation run finished.
+11:49:55,818   INFO ProjectView:140 - scenario supermarket finished
+11:49:55,821   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <supermarket>
+11:49:55,822   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:49:56,067   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=89, state='"SimulationRun completed"}
+11:49:56,069   INFO ScenarioRun:265 - Simulation of scenario supermarket finished.
+11:49:56,072   INFO ProjectView:577 - selected scenario 'supermarket'
+11:49:57,449   INFO ProjectView:583 - repainted output table
+11:50:26,849   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:50:26,851   INFO ScenarioRun:147 - Initializing scenario: supermarket...
+11:50:26,853   INFO ScenarioRun:128 - scenario context initialized.
+11:50:26,854   INFO ScenarioRun:229 - no mesh supermarket.poly was found.
+11:50:26,854   INFO ScenarioRun:229 - no mesh supermarket_background.poly was found.
+11:50:26,860   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:50:26,863   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+11:50:26,917   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+11:50:26,950   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+11:50:26,982   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+11:50:27,016   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+11:50:27,047   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+11:50:27,099   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+11:50:27,141   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+11:50:27,179   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+11:50:27,215   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+11:50:27,268   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:408[ms]
+11:50:27,268   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:50:27,335   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:58[ms]
+11:50:27,395   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:54[ms]
+11:50:27,449   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:48[ms]
+11:50:27,504   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:50[ms]
+11:50:27,554   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:44[ms]
+11:50:27,615   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:57[ms]
+11:50:27,682   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:62[ms]
+11:50:27,731   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:43[ms]
+11:50:27,793   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:58[ms]
+11:50:27,877   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:76[ms]
+11:50:27,899   INFO Simulation:277 - preLoop finished.
+11:50:42,880   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-50-26.850\postvis.traj
+11:50:43,078   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-50-26.850\overlaps.csv
+11:50:43,082   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-50-26.850\overlapCount.txt
+11:50:43,084   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-50-26.850\SIRinformation.csv
+11:50:43,124   INFO Simulation:251 - Finished writing all output files
+11:50:43,124   INFO Simulation:254 - Post-loop: before waitForTraci
+11:50:43,124   INFO Simulation:261 - Post-loop: finished.
+11:50:43,125   INFO ScenarioRun:207 - Simulation run finished.
+11:50:43,125   INFO ProjectView:140 - scenario supermarket finished
+11:50:43,129   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <supermarket>
+11:50:43,129   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:50:43,356   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=78, state='"SimulationRun completed"}
+11:50:43,358   INFO ScenarioRun:265 - Simulation of scenario supermarket finished.
+11:50:43,360   INFO ProjectView:577 - selected scenario 'supermarket'
+11:50:44,126   INFO ProjectView:583 - repainted output table
+11:50:53,181   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:50:53,184   INFO ScenarioRun:147 - Initializing scenario: supermarket...
+11:50:53,184   INFO ScenarioRun:128 - scenario context initialized.
+11:50:53,185   INFO ScenarioRun:229 - no mesh supermarket.poly was found.
+11:50:53,186   INFO ScenarioRun:229 - no mesh supermarket_background.poly was found.
+11:50:53,193   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:50:53,196   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+11:50:53,249   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+11:50:53,292   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+11:50:53,348   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+11:50:53,394   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+11:50:53,441   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+11:50:53,513   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+11:50:53,567   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+11:50:53,627   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+11:50:53,680   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+11:50:53,752   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:559[ms]
+11:50:53,753   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:50:53,843   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:79[ms]
+11:50:53,937   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:85[ms]
+11:50:54,013   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:70[ms]
+11:50:54,097   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:76[ms]
+11:50:54,152   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:51[ms]
+11:50:54,232   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:73[ms]
+11:50:54,332   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:96[ms]
+11:50:54,383   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:45[ms]
+11:50:54,445   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:54[ms]
+11:50:54,530   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:78[ms]
+11:50:54,541   INFO Simulation:277 - preLoop finished.
+11:51:08,851   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-50-53.183\postvis.traj
+11:51:09,008   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-50-53.183\overlaps.csv
+11:51:09,011   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-50-53.183\overlapCount.txt
+11:51:09,012   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-50-53.183\SIRinformation.csv
+11:51:09,045   INFO Simulation:251 - Finished writing all output files
+11:51:09,045   INFO Simulation:254 - Post-loop: before waitForTraci
+11:51:09,046   INFO Simulation:261 - Post-loop: finished.
+11:51:09,046   INFO ScenarioRun:207 - Simulation run finished.
+11:51:09,047   INFO ProjectView:140 - scenario supermarket finished
+11:51:09,050   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <supermarket>
+11:51:09,050   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:51:09,273   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=78, state='"SimulationRun completed"}
+11:51:09,274   INFO ScenarioRun:265 - Simulation of scenario supermarket finished.
+11:51:09,276   INFO ProjectView:577 - selected scenario 'supermarket'
+11:51:09,957   INFO ProjectView:583 - repainted output table
+11:51:32,905   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:51:32,908   INFO ScenarioRun:147 - Initializing scenario: supermarket...
+11:51:32,909   INFO ScenarioRun:128 - scenario context initialized.
+11:51:32,910   INFO ScenarioRun:229 - no mesh supermarket.poly was found.
+11:51:32,910   INFO ScenarioRun:229 - no mesh supermarket_background.poly was found.
+11:51:32,915   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:51:32,920   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+11:51:32,958   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+11:51:32,993   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+11:51:33,027   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+11:51:33,072   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+11:51:33,150   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+11:51:33,185   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+11:51:33,219   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+11:51:33,253   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+11:51:33,301   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+11:51:33,365   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:449[ms]
+11:51:33,365   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:51:33,417   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:47[ms]
+11:51:33,472   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:50[ms]
+11:51:33,531   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:54[ms]
+11:51:33,611   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:75[ms]
+11:51:33,662   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:46[ms]
+11:51:33,722   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:54[ms]
+11:51:33,784   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:54[ms]
+11:51:33,868   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:79[ms]
+11:51:33,915   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:43[ms]
+11:51:33,968   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:49[ms]
+11:51:33,973   INFO Simulation:277 - preLoop finished.
+11:51:47,211   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-51-32.907\postvis.traj
+11:51:47,370   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-51-32.907\overlaps.csv
+11:51:47,372   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-51-32.907\overlapCount.txt
+11:51:47,373   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-51-32.907\SIRinformation.csv
+11:51:47,420   INFO Simulation:251 - Finished writing all output files
+11:51:47,420   INFO Simulation:254 - Post-loop: before waitForTraci
+11:51:47,421   INFO Simulation:261 - Post-loop: finished.
+11:51:47,421   INFO ScenarioRun:207 - Simulation run finished.
+11:51:47,422   INFO ProjectView:140 - scenario supermarket finished
+11:51:47,426   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <supermarket>
+11:51:47,427   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:51:47,619   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=66, state='"SimulationRun completed"}
+11:51:47,620   INFO ScenarioRun:265 - Simulation of scenario supermarket finished.
+11:51:47,622   INFO ProjectView:577 - selected scenario 'supermarket'
+11:51:48,327   INFO ProjectView:583 - repainted output table
+11:52:30,361   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:52:30,363   INFO ScenarioRun:147 - Initializing scenario: supermarket...
+11:52:30,364   INFO ScenarioRun:128 - scenario context initialized.
+11:52:30,365   INFO ScenarioRun:229 - no mesh supermarket.poly was found.
+11:52:30,366   INFO ScenarioRun:229 - no mesh supermarket_background.poly was found.
+11:52:30,373   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:52:30,378   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+11:52:30,432   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+11:52:30,481   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+11:52:30,540   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+11:52:30,590   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+11:52:30,633   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+11:52:30,680   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+11:52:30,728   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+11:52:30,785   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+11:52:30,826   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+11:52:30,866   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:493[ms]
+11:52:30,866   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:52:30,932   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:61[ms]
+11:52:31,004   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:65[ms]
+11:52:31,063   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:54[ms]
+11:52:31,122   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:54[ms]
+11:52:31,189   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:62[ms]
+11:52:31,260   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:64[ms]
+11:52:31,327   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:63[ms]
+11:52:31,431   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:98[ms]
+11:52:31,499   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:62[ms]
+11:52:31,560   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:55[ms]
+11:52:31,565   INFO Simulation:277 - preLoop finished.
+11:52:45,898   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-52-30.362\postvis.traj
+11:52:46,047   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-52-30.362\overlaps.csv
+11:52:46,049   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-52-30.362\overlapCount.txt
+11:52:46,050   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-52-30.362\SIRinformation.csv
+11:52:46,075   INFO Simulation:251 - Finished writing all output files
+11:52:46,076   INFO Simulation:254 - Post-loop: before waitForTraci
+11:52:46,076   INFO Simulation:261 - Post-loop: finished.
+11:52:46,076   INFO ScenarioRun:207 - Simulation run finished.
+11:52:46,077   INFO ProjectView:140 - scenario supermarket finished
+11:52:46,080   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <supermarket>
+11:52:46,080   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:52:46,271   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=55, state='"SimulationRun completed"}
+11:52:46,272   INFO ScenarioRun:265 - Simulation of scenario supermarket finished.
+11:52:46,274   INFO ProjectView:577 - selected scenario 'supermarket'
+11:52:46,942   INFO ProjectView:583 - repainted output table
+11:53:27,507   INFO ScenarioCache:85 - Cache search location: C:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\scenarios\__cache__
+11:53:27,510   INFO ScenarioRun:147 - Initializing scenario: supermarket...
+11:53:27,510   INFO ScenarioRun:128 - scenario context initialized.
+11:53:27,511   INFO ScenarioRun:229 - no mesh supermarket.poly was found.
+11:53:27,512   INFO ScenarioRun:229 - no mesh supermarket_background.poly was found.
+11:53:27,516   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:53:27,520   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+11:53:27,560   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+11:53:27,597   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+11:53:27,641   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+11:53:27,716   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+11:53:27,749   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+11:53:27,789   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+11:53:27,829   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+11:53:27,879   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+11:53:27,953   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+11:53:27,997   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:480[ms]
+11:53:27,997   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:53:28,046   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:44[ms]
+11:53:28,106   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:55[ms]
+11:53:28,157   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:47[ms]
+11:53:28,231   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:67[ms]
+11:53:28,282   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:47[ms]
+11:53:28,338   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:50[ms]
+11:53:28,396   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:51[ms]
+11:53:28,535   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:134[ms]
+11:53:28,581   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:42[ms]
+11:53:28,627   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:42[ms]
+11:53:28,632   INFO Simulation:277 - preLoop finished.
+11:53:43,481   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-53-27.508\postvis.traj
+11:53:43,639   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-53-27.508\overlaps.csv
+11:53:43,643   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-53-27.508\overlapCount.txt
+11:53:43,644   INFO OutputFile:109 - Absolute file nameC:\Users\Bassel\Documents\Github\ArtemisTask1\mlicms2425ex2-groupg\scenario\task_5\output\supermarket_2024-11-14_11-53-27.508\SIRinformation.csv
+11:53:43,688   INFO Simulation:251 - Finished writing all output files
+11:53:43,689   INFO Simulation:254 - Post-loop: before waitForTraci
+11:53:43,689   INFO Simulation:261 - Post-loop: finished.
+11:53:43,690   INFO ScenarioRun:207 - Simulation run finished.
+11:53:43,690   INFO ProjectView:140 - scenario supermarket finished
+11:53:43,694   INFO JsonMigrationAssistant:83 - >> analyzing JSON tree of scenario <supermarket>
+11:53:43,694   INFO JsonMigrationAssistant:103 - Nothing to do current version and target version match
+11:53:43,904   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=66, state='"SimulationRun completed"}
+11:53:43,905   INFO ScenarioRun:265 - Simulation of scenario supermarket finished.
+11:53:43,908   INFO ProjectView:577 - selected scenario 'supermarket'
+11:53:44,684   INFO ProjectView:583 - repainted output table
